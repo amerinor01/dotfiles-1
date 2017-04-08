@@ -124,9 +124,13 @@ super + {Left,Down,Up,Right}
 # multimedia keys
 #
 
-# volume
-XF86Audio{LowerVolume,RaiseVolume,Mute}
-  amixer set Master {4-,4+,toggle}
+# volume -/+
+XF86Audio{LowerVolume,RaiseVolume}
+  pactl set-sink-volume 0 {-1%,+1%}
+
+# mute
+XF86AudioMute
+  pactl set-sink-mute 0 toggle
 
 # mpd
 XF86Audio{Prev,Next,Play,Stop}
