@@ -25,6 +25,6 @@
 + **rtorrent** - BitTorrent client
 
 ## GUI
-+ arc-grey-darker - gtk theme
-+ paper - icon theme
-+ adwaita - cursor theme
++ **arc-grey-darker** - GTK theme
++ **paper** - Icon theme
++ **adwaita** - Cursor theme
