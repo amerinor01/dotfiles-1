@@ -1,8 +1,10 @@
 ;:set syn=dosini
 
 [global/wm]
-margin-top = 0
-margin-bottom = 0
+#margin-top = 8
+#margin-bottom = 8
+#margin-left = 8
+#margin-right = 8
 
 
 [colors]
@@ -31,10 +33,10 @@ alert = #fb4934
 monitor = eDP-1
 bottom = true
 wm-restack = bspwm
-width = 100%
+width = 1344
 height = 26
-offset-x = 0
-offset-y = 0
+offset-x = 11
+offset-y = 11
 
 locale = en_US.UTF-8
 
@@ -65,8 +67,8 @@ tray-padding = 0
 tray-transparent = false
 tray-scale = 1.0
 
-font-0 = "monospace:size=9;2"
-font-1 = "FontAwesome:size=9;2"
+font-0 = "monospace:size=8;1.6"
+font-1 = "FontAwesome:size=8;1.6"
 
 
 [module/mpd]
