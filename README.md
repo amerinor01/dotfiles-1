@@ -3,10 +3,10 @@
 ## Screenshots
 
 ### Clean
-![Clean](http://i.imgur.com/nXjKnne.png "Clean")
+![Clean](https://github.com/abdullaev/dotfiles/blob/master/.screenshots/1.png "Clean")
 
 ### Fake busy
-![Fake busy](http://i.imgur.com/PvdIKKr.png "Fake busy")
+![Fake busy](https://github.com/abdullaev/dotfiles/blob/master/.screenshots/3.png "Fake busy")
 
 ## Some installed software
 
