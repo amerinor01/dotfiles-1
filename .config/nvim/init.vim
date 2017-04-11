@@ -19,6 +19,7 @@ if dein#load_state('/home/a21v/.local/share/dein')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('Shougo/denite.nvim')
   call dein#add('Shougo/deoplete.nvim')
+  call dein#add('carlitux/deoplete-ternjs')
   call dein#add('kassio/neoterm')
   call dein#add('vim-airline/vim-airline') 
   call dein#add('vim-airline/vim-airline-themes')
@@ -57,7 +58,7 @@ if dein#load_state('/home/a21v/.local/share/dein')
   call dein#add('mattn/gist-vim')
   call dein#add('mattn/webapi-vim')
   call dein#add('ryanoasis/vim-devicons')
-  call dein#add('ternjs/tern_for_vim')
+  call dein#add('metakirby5/codi.vim')
 
   " Required:
   call dein#end()
@@ -217,6 +218,12 @@ let g:tagbar_type_go = {
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:syntastic_go_checkers = ['gometalinter']
+let g:syntastic_javascript_checkers = ['eslint']
+
+" Rust stuff
+" let g:rustfmt_autosave = 1
+let g:syntastic_rust_checkers = ['rustc']
 
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
