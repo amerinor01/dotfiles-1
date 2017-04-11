@@ -59,7 +59,7 @@ underline-size = 0
 underline-color = ${colors.white}
 
 tray-detached = false
-tray-position = right
+tray-position = 
 tray-offset-x = 0
 tray-offset-y = 0
 ;tray-maxsize = 16
@@ -67,8 +67,8 @@ tray-padding = 0
 tray-transparent = false
 tray-scale = 1.0
 
-font-0 = "monospace:size=8;1.6"
-font-1 = "FontAwesome:size=8;1.6"
+font-0 = "monospace:size=8;2"
+font-1 = "FontAwesome:size=8;2"
 
 
 [module/mpd]
@@ -122,7 +122,8 @@ ws-icon-0 = 1;
 ws-icon-1 = 2;
 ws-icon-2 = 3;
 ws-icon-3 = 4;
-ws-icon-4 = 5;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
 ws-icon-default = 
 
 
