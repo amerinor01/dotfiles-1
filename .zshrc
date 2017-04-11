@@ -58,10 +58,11 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -80,10 +81,15 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# gvm
 [[ -s "/home/a21v/.gvm/scripts/gvm" ]] && source "/home/a21v/.gvm/scripts/gvm"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -94,4 +100,5 @@ export NVM_DIR="$HOME/.nvm"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias ghc="stack ghc"
+alias ghci="stack ghci"
