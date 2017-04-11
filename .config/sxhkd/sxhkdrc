@@ -147,3 +147,7 @@ XF86MonBrightness{Down,Up}
 # toggle keyboard layout
 alt + space
   ~/.bin/toggkbl
+
+# lock screen
+ctrl + shift + alt + l
+  i3lock-fancy
