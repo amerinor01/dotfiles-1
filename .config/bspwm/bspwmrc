@@ -4,6 +4,7 @@ sxhkd &
 compton --config ~/.config/compton/compton.conf -b & 
 polybar bar &
 feh --bg-scale ~/.wallpaper/bg.jpg &
+dunst &
 devmon --no-gui &
 mpd &
 
